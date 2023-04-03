@@ -13,26 +13,26 @@ function App() {
                 <div className="navbar">
                     <div id="beachhousenav" className="navlink">
                         <NavLink to="/" style={({ isActive }) => ({ 
-                            color: isActive ? 'black' : 'black' })}>
+                            color: isActive ? 'lightblue' : 'beige' })}>
                             Beach House
                         </NavLink>
                     </div>
                     <div className="navlink">
                         <NavLink to="/gallery" style={({ isActive }) => ({ 
-                            color: isActive ? 'darkgreen' : 'beige' })}>
+                            color: isActive ? 'lightblue' : 'beige' })}>
                             Gallery
                         </NavLink>
                     </div>
                     <div className="navlink">
                         <NavLink to="/about" style={({ isActive }) => ({ 
-                            color: isActive ? 'darkgreen' : 'beige' })}>
+                            color: isActive ? 'lightblue' : 'beige' })}>
                             About
                         </NavLink>
                     </div>
                     <div className="navlink">
                         <NavLink to="/booking" style={({ isActive }) => ({ 
-                            color: isActive ? 'darkgreen' : 'beige' })}>
-                            
+                            color: isActive ? 'lightblue' : 'beige' })}>
+                            Booking
                         </NavLink>
                     </div>
                 </div>

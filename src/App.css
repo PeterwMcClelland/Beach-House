@@ -37,6 +37,10 @@
   }
 }
 
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
 /* Header */
 
 .header {
@@ -78,11 +82,11 @@
     padding-bottom: 20px;
     margin: 10px;
     font-weight: bolder;
-    font-size: xx-large;
-    font-family: 'Bebas Neue', cursive;
+    font-size: x-large;
+    font-family: 'Lilita One', cursive;
   }
 
-  #tilebarnav {
+  #beachhousenav {
     font-size: xxx-large;
     font-weight: bolder;
     font-family: 'Bebas Neue', cursive;
