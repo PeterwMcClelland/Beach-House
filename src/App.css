@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Header */
+
+.header {
+  height: 120px;
+  background-color: rgba(163, 163, 163, 0.527);
+  top: 0;
+  position: sticky;
+  position: fixed!important;
+  z-index: 1000;
+  width: 100%;
+}
+
+.titleh1 {
+  font-weight: bold;
+  color: white;
+  padding-left: 15px;
+  }
+
+  .navbar {
+    text-decoration: none;
+    padding: 10px;
+    display: inline-flex;
+    height: 75px;
+    background-color: rgb(80 80 80 / 53%);
+    top: 0;
+    position: sticky;
+    position: fixed!important;
+    z-index: 1000;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .navlink {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-weight: 500;
+    padding-bottom: 20px;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  #tilebarnav {
+    font-size: xxx-large;
+    font-weight: bolder;
+    font-family: 'Bebas Neue', cursive;
+}
+
+a {
+  text-decoration: none; 
+}
+
+  .navlink:hover {
+    color: ivory;
+    font-weight: bolder;
+    cursor: pointer;
+  }
