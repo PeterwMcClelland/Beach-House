@@ -14,7 +14,7 @@ function App() {
                     <div id="beachhousenav" className="navlink">
                         <NavLink to="/" style={({ isActive }) => ({ 
                             color: isActive ? 'lightblue' : 'beige' })}>
-                            Beach House
+                            Pacific Nest
                         </NavLink>
                     </div>
                     <div className="navlink">
