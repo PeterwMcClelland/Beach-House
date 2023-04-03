@@ -101,3 +101,15 @@ a {
     font-weight: bolder;
     cursor: pointer;
   }
+
+  /* Home.js */
+
+  .backgroundslides {
+    background: url(./images/04599f12-2df1-4cb9-aac1-89c78ab0718c.webp) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1000px;
+    top: 0px;
+  }
