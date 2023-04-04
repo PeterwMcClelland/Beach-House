@@ -1,5 +1,6 @@
 
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
+
 import Booking from "./components/Booking";
 import Gallery from "./components/Gallery";
 import About from "./components/About";
