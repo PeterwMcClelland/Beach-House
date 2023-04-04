@@ -355,3 +355,10 @@ a {
         .booking-form .submit-btn:hover, .booking-form .submit-btn:focus{
         opacity: 0.9
         }
+
+        /* Gallery */
+
+        #gallerybackground {
+          background: #00000080;
+          height: 1200px;
+        }

@@ -1,4 +1,4 @@
-
+// Images for Gallery Page
 
 export const images = [
     {
