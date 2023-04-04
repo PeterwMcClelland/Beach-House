@@ -1,8 +1,8 @@
 import React from 'react'
+import '../assets/CSS/heroslides.css';
 
 function Home() {
   return (
-    
 	<body>
 	<ul class="backgroundslides">
 		<li><span>Image 1</span></li>

@@ -3,39 +3,39 @@ import React from 'react'
 function Booking() {
   return (
     <>
-    <div id="booking" class="section"> 
-      <div class="section-center"> 
-        <div class="container"> 
-          <div class="row"> 
-            <div class="booking-form"> 
+    <div id="booking" className="section"> 
+      <div className="section-center"> 
+        <div className="container"> 
+          <div className="row"> 
+            <div className="booking-form"> 
 
-    <div class="form-header"> 
+    <div className="form-header"> 
       <h1>Make your reservation</h1> 
     </div> 
     
     <form> 
       
-      <div class="row"> 
-        <div class="col-md-6"> 
-          <div class="form-group"> 
-            <input class="form-control" type="date" required/>
-      <span class="form-label">Check In</span> 
+      <div className="row"> 
+        <div className="col-md-6"> 
+          <div className="form-group"> 
+            <input className="form-control" type="date" required/>
+      <span className="form-label">Check In</span> 
       </div> 
     </div> 
 
-    <div class="col-md-6"> 
-      <div class="form-group"> 
-        <input class="form-control" type="date" required/>
-        <span class="form-label">Check out</span> 
+    <div className="col-md-6"> 
+      <div className="form-group"> 
+        <input className="form-control" type="date" required/>
+        <span className="form-label">Check out</span> 
         </div> 
       </div> 
     </div> 
 
-    <div class="row"> 
-      <div class="col-md-4"> 
-        <div class="form-group"> 
-          <select class="form-control" required> 
-            <option value="" selected hidden>no of adults</option> 
+    <div className="row"> 
+      <div className="col-md-4"> 
+        <div className="form-group"> 
+          <select className="form-control" required> 
+            <option value="" hidden>no of adults</option> 
               <option>1</option> 
               <option>2</option> 
               <option>3</option> 
@@ -43,24 +43,29 @@ function Booking() {
               <option>5</option>
               <option>6</option>
           </select> 
-        <span class="select-arrow"></span> 
-        <span class="form-label">Adults</span> 
+        <span className="select-arrow"></span> 
+        <span className="form-label">Adults</span> 
         </div> 
       </div> 
     </div> 
 
-    <div class="row"> 
-      <div class="col-md-6"> 
-        <div class="form-group"> 
-          <input class="form-control" type="email" placeholder="Enter your Email" /> 
-            <span class="form-label">Email</span> </div> </div> <div class="col-md-6"> <div class="form-group"> <input class="form-control" type="tel" placeholder="Enter you Phone"/>
-            <span class="form-label">Phone</span> 
+    <div className="row"> 
+      <div className="col-md-6"> 
+        <div className="form-group"> 
+          <input className="form-control" type="email" placeholder="Enter your Email" /> 
+            <span className="form-label">Email</span> 
+            </div> 
+          </div> 
+        <div className="col-md-6"> 
+        <div className="form-group"> 
+        <input className="form-control" type="tel" placeholder="Phone Number"/>
+            <span className="form-label">Phone</span> 
         </div> 
       </div> 
     </div> 
 
-     <div class="form-btn"> 
-     <button class="submit-btn">Book Now</button>
+     <div className="form-btn"> 
+     <button className="submit-btn">Book Now</button>
 
               </div> 
             </form> 
