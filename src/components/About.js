@@ -6,9 +6,12 @@ function About() {
         <div class="container">
 	<div class="gridwrapper">
         <div class="infotext">
-            <h2 className='about-h2'>About</h2>
+            <h2 className='about-h2'>About Us</h2>
             <p className='abouttext'>
-                ondecvojwnbv oadco owdnco owhdcojn wjnd ldjnc askdjcbksdc jnsdc jsbdc n dsck ca lqwnefl lqwefnlwe wqjbefck wjebf wkjebcwbe wbeck kbwcekb 
+                ondecvojwnbv oadco owdnco owhdcojn wjnd ldjnc askdjcbksdc jnsdc 
+                jsbdc n dsck ca lqwnefl lqwefnlwe wqjbefck wjebf wkjebcwbe wbeck kbwcekb 
+                ljdbvlsjbdv lfmvaeihf zvlnd knd .skfnb aknef adknf jkn dnvjb.
+
             </p>
             </div>
         
