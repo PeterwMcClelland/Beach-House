@@ -151,7 +151,7 @@ a {
   }
   
   .backgroundslides li:nth-child(2) span{
-    background:url(./images/2c4185b4-2756-477f-9266-3a1b0a4dbf64.webp);
+    background:url(./images/469925b5-f7ec-4ccc-822c-61cad80a5b5c.webp);
     -webkit-animation-delay: 6s;
       -moz-animation-delay: 6s;
       -o-animation-delay: 6s;
@@ -234,4 +234,55 @@ a {
       17% { opacity: 1 }
       25% { opacity: 0 }
       100% { opacity: 0 }
+  }
+
+  /* About */
+
+  .aboutbackground {
+    background: url(./images/034ed1ed-fa40-4425-854d-eb783db443c9.webp) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1000px;
+    top: 0px;
+  }
+
+  .container {
+    text-align: -webkit-center;
+    
+  }
+
+  .gridwrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;	
+  }
+  
+  
+  .box {
+      background-color: #444;
+      color: #fff;
+      padding: 1em;
+  }
+
+  .infotext {
+    padding: 20px;
+    background-color: rgb(80 80 80 / 53%);
+    width: auto;
+    color: white;
+    margin: 199px 50px 10px 50px;
+    border-radius: 5px;
+    align-self: center;
+  }
+
+  .map {
+    padding: 200px 10px 10px 10px;
+  }
+
+  .about-h2 {
+    font-size: x-large;
+  }
+
+  .abouttext {
+    font-size: x-large;
   }
