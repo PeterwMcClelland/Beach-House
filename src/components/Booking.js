@@ -19,8 +19,16 @@ function Booking() {
     </div> 
     
     <form> 
+
+    <div className="row"> 
+        <div > 
+          <div className="form-group"> 
+            <input className="form-control" placeholder='Full Name' type="text" required/>
+      <span className="form-label"></span> 
+      </div> 
+      </div>
       
-      <div className="row"> 
+      <div className='in-out-date'>
         <div className="col-md-6"> 
           <div className="form-group"> 
             <input className="form-control" type="date" required/>
@@ -31,21 +39,27 @@ function Booking() {
     <div className="col-md-6"> 
       <div className="form-group"> 
         <input className="form-control" type="date" required/>
-        <span className="form-label">Check out</span> 
+        <span className="form-label">
+          Check out
+          </span> 
         </div> 
       </div> 
+    </div>
+
     </div> 
 
-    <div className="row"> 
-      <div className="col-md-4"> 
+    <div className="row-people"> 
+      <div className="num-people"> 
         <div className="form-group"> 
           <select className="form-control" required> 
-            <option value="" hidden>no of adults</option> 
+            <option value="" hidden># Adults</option> 
               <option>1</option> 
               <option>2</option> 
           </select> 
-        <span className="select-arrow"></span> 
-        <span className="form-label">Adults</span> 
+        
+        <span className="form-label">
+          Adults
+          </span> 
         </div> 
       </div> 
     </div> 
