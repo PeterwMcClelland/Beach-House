@@ -19,7 +19,7 @@ function App() {
                             The Newport Home
                         </NavLink>
                     </div>
-                    <div className="links">
+                    <div></div>
                     <div className="navlink">
                         <NavLink to="/about" style={({ isActive }) => ({ 
                             color: isActive ? 'lightblue' : 'beige' })}>
@@ -37,7 +37,6 @@ function App() {
                             color: isActive ? 'lightblue' : 'beige' })}>
                             Booking
                         </NavLink>
-                    </div>
                     </div>
                 </div>
                 <Routes>

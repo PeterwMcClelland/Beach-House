@@ -22,8 +22,8 @@ export const images = [
         thumbnail: 'https://a0.muscache.com/im/pictures/miso/Hosting-52707658/original/04599f12-2df1-4cb9-aac1-89c78ab0718c.jpeg?im_w=1200',
     },
     {
-      original: 'https://a0.muscache.com/im/pictures/f3b0ec24-8046-4085-a39c-b5dc0e39b712.jpg?im_w=1200',
-      thumbnail: 'https://a0.muscache.com/im/pictures/f3b0ec24-8046-4085-a39c-b5dc0e39b712.jpg?im_w=1200',
+        original: 'https://a0.muscache.com/im/pictures/f3b0ec24-8046-4085-a39c-b5dc0e39b712.jpg?im_w=1200',
+        thumbnail: 'https://a0.muscache.com/im/pictures/f3b0ec24-8046-4085-a39c-b5dc0e39b712.jpg?im_w=1200',
     },
     {
         original: 'https://a0.muscache.com/im/pictures/395aa373-c63a-4410-b23d-dd6e31afdfbd.jpg?im_w=960',
@@ -38,12 +38,12 @@ export const images = [
         thumbnail: 'https://a0.muscache.com/im/pictures/f0a9aec4-f7bf-4123-8eba-7bd99cf5a1d8.jpg?im_w=1200',
     },
     {
-      original: 'https://a0.muscache.com/im/pictures/miso/Hosting-52707658/original/46e55fe6-312c-4f2d-8852-3a485309f097.jpeg?im_w=1200',
-      thumbnail: 'https://a0.muscache.com/im/pictures/miso/Hosting-52707658/original/46e55fe6-312c-4f2d-8852-3a485309f097.jpeg?im_w=1200',
-    },
+        original: 'https://a0.muscache.com/im/pictures/miso/Hosting-52707658/original/46e55fe6-312c-4f2d-8852-3a485309f097.jpeg?im_w=1200',
+        thumbnail: 'https://a0.muscache.com/im/pictures/miso/Hosting-52707658/original/46e55fe6-312c-4f2d-8852-3a485309f097.jpeg?im_w=1200',
+    }, 
     {
-      original: 'https://a0.muscache.com/im/pictures/61b7263d-a513-41ef-a9c6-fbe9afffe7f2.jpg?im_w=1200',
-      thumbnail: 'https://a0.muscache.com/im/pictures/61b7263d-a513-41ef-a9c6-fbe9afffe7f2.jpg?im_w=1200',
+        original: 'https://a0.muscache.com/im/pictures/61b7263d-a513-41ef-a9c6-fbe9afffe7f2.jpg?im_w=1200',
+        thumbnail: 'https://a0.muscache.com/im/pictures/61b7263d-a513-41ef-a9c6-fbe9afffe7f2.jpg?im_w=1200',
     },
     {
         original: 'https://a0.muscache.com/im/pictures/47f4dd8b-7d47-4afc-8538-9bd864a93aab.jpg?im_w=1200',
