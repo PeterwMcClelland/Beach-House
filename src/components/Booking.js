@@ -43,10 +43,6 @@ function Booking() {
             <option value="" hidden>no of adults</option> 
               <option>1</option> 
               <option>2</option> 
-              <option>3</option> 
-              <option>4</option>
-              <option>5</option>
-              <option>6</option>
           </select> 
         <span className="select-arrow"></span> 
         <span className="form-label">Adults</span> 
