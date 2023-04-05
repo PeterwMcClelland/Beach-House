@@ -37,11 +37,14 @@
   }
 }
 
-/* Fonts */
+/* ---------- Fonts ---------- */
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
-/* Header */
+
+/* ---------- Header ---------- */
 
 .header {
   height: 120px;
@@ -82,8 +85,9 @@
     padding-bottom: 20px;
     margin: 10px;
     font-weight: bolder;
-    font-size: x-large;
-    font-family: 'Lilita One', cursive;
+    font-size: xx-large;
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Roboto Slab', serif;
   }
 
   #beachhousenav {
@@ -102,13 +106,13 @@ a {
     cursor: pointer;
   }
 
-  /* Home.js */
+  /* ---------- Home.js ---------- */
 
   
 
   
 
-  /* About */
+  /* ---------- About ---------- */
 
   .aboutbackground {
     background: url(./assets/images/034ed1ed-fa40-4425-854d-eb783db443c9.webp) no-repeat center center fixed; 
@@ -139,28 +143,35 @@ a {
 
   .infotext {
     padding: 20px;
-    background-color: rgb(80 80 80 / 53%);
+    background-color: rgb(80 80 80 / 70%);
     width: auto;
     color: white;
     margin: 199px 70px 10px 70px;
     border-radius: 8px;
     align-self: center;
+    font-family: 'Roboto Slab', serif;
   }
 
   .map {
     padding: 200px 10px 10px 10px;
   }
 
+  iframe {
+    border-radius: 5px;
+  }
+
   .about-h2 {
     font-size: xx-large;
     padding-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
   }
 
   .abouttext {
-    font-size: x-large;
+    font-size: larger;
   }
 
-  /* Booking */
+
+  /* ---------- Booking ---------- */
 
   body{
     background: url(./assets/images/04599f12-2df1-4cb9-aac1-89c78ab0718c.webp) no-repeat center center fixed; 
@@ -170,6 +181,11 @@ a {
     background-size: cover;
     height: 1000px;
     top: 0px;
+    }
+
+    .booking-h1 {
+      font-family: 'Roboto Slab', serif;
+    
     }
 
 .section{
@@ -226,7 +242,7 @@ a {
         text-transform: capitalize;
         font-size: 42px;
         margin: 0px;
-        color: #fff
+        color: white;
     }
 
     .booking-form .form-group{
@@ -297,7 +313,7 @@ a {
         height: 32px;
         text-align: center;
         pointer-events: none;
-        color: rgba(0, 0, 0, 0.5);
+        color: #ff8846;
         font-size: 14px
         }
         
@@ -356,9 +372,31 @@ a {
         opacity: 0.9
         }
 
-        /* Gallery */
+
+        /* ---------- Gallery ---------- */
 
         #gallerybackground {
-          background: #00000080;
+          background: hsla(0, 0%, 11%, 0.85);
           height: 1200px;
         }
+
+
+        /* ---------- Confirmation ---------- */
+
+        .confirmation {
+          font-size: larger;
+          width: 400px;
+          text-align: center;
+          padding: 15px;
+          border-radius: 5px;
+          background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .confirmation-body {
+          text-align: -webkit-center;
+          padding-top: 200px;
+          color: white;
+          font-family: 'Lilita One', cursive;
+        }
+
+       

@@ -5,6 +5,7 @@ import Booking from "./components/Booking";
 import Gallery from "./components/Gallery";
 import About from "./components/About";
 import Home from "./components/Home";
+import Confirmation from "./components/Confirmation";
 import './App.css';
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
                     <Route exact path="/about" element={<About />} />
                     <Route exact path="/gallery" element={<Gallery />} />
                     <Route exact path="/booking" element={<Booking />} />
+                    <Route exact path="/confirmation" element={<Confirmation />} />
                 </Routes>
             </BrowserRouter>
         </>

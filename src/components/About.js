@@ -10,7 +10,6 @@ function About() {
             <h2 className='about-h2'>About Us</h2>
             <p className='abouttext'>
                <LoremIpsum p={1}/>
-
             </p>
             </div>
         

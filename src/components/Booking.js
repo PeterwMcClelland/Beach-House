@@ -1,5 +1,10 @@
 import React from 'react'
 
+import {Link} from 'react-router-dom';
+
+
+
+
 function Booking() {
   return (
     <>
@@ -10,7 +15,7 @@ function Booking() {
             <div className="booking-form"> 
 
     <div className="form-header"> 
-      <h1>Make your reservation</h1> 
+      <h1 className='booking-h1'>Make your reservation</h1> 
     </div> 
     
     <form> 
@@ -65,7 +70,9 @@ function Booking() {
     </div> 
 
      <div className="form-btn"> 
+     <Link to='/Confirmation'>
      <button className="submit-btn">Book Now</button>
+     </Link>
 
               </div> 
             </form> 
