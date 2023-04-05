@@ -2,6 +2,22 @@
 
 export const images = [
     {
+        original: 'https://a0.muscache.com/im/pictures/miso/Hosting-52707658/original/cadb7933-1a28-42db-ac3c-3cb03b47071c.jpeg?im_w=1200',
+        thumbnail: 'https://a0.muscache.com/im/pictures/miso/Hosting-52707658/original/cadb7933-1a28-42db-ac3c-3cb03b47071c.jpeg?im_w=1200',
+    },
+    {
+        original: 'https://a0.muscache.com/im/pictures/miso/Hosting-52707658/original/469925b5-f7ec-4ccc-822c-61cad80a5b5c.jpeg?im_w=1200',
+        thumbnail: 'https://a0.muscache.com/im/pictures/miso/Hosting-52707658/original/469925b5-f7ec-4ccc-822c-61cad80a5b5c.jpeg?im_w=1200',
+    },
+    {
+        original: 'https://a0.muscache.com/im/pictures/20c089da-7bd4-4c49-a506-903b7c848765.jpg?im_w=1200',
+        thumbnail: 'https://a0.muscache.com/im/pictures/20c089da-7bd4-4c49-a506-903b7c848765.jpg?im_w=1200',
+    },
+    {
+        original: 'https://a0.muscache.com/im/pictures/0838a373-3052-47c2-b05f-ce1998aff494.jpg?im_w=1200',
+        thumbnail: 'https://a0.muscache.com/im/pictures/0838a373-3052-47c2-b05f-ce1998aff494.jpg?im_w=1200',
+    },
+    {
         original: 'https://a0.muscache.com/im/pictures/miso/Hosting-52707658/original/04599f12-2df1-4cb9-aac1-89c78ab0718c.jpeg?im_w=1200',
         thumbnail: 'https://a0.muscache.com/im/pictures/miso/Hosting-52707658/original/04599f12-2df1-4cb9-aac1-89c78ab0718c.jpeg?im_w=1200',
     },
@@ -77,28 +93,5 @@ export const images = [
         original: 'https://a0.muscache.com/im/pictures/2f058ea1-719b-4f95-b7fb-753898dacbe8.jpg?im_w=1200',
         thumbnail: 'https://a0.muscache.com/im/pictures/2f058ea1-719b-4f95-b7fb-753898dacbe8.jpg?im_w=1200',
     },
-    {
-        original: 'https://a0.muscache.com/im/pictures/miso/Hosting-52707658/original/cadb7933-1a28-42db-ac3c-3cb03b47071c.jpeg?im_w=1200',
-        thumbnail: 'https://a0.muscache.com/im/pictures/miso/Hosting-52707658/original/cadb7933-1a28-42db-ac3c-3cb03b47071c.jpeg?im_w=1200',
-    },
-    {
-        original: 'https://a0.muscache.com/im/pictures/2c4185b4-2756-477f-9266-3a1b0a4dbf64.jpg?im_w=1200',
-        thumbnail: 'https://a0.muscache.com/im/pictures/2c4185b4-2756-477f-9266-3a1b0a4dbf64.jpg?im_w=1200',
-    },
-    {
-        original: 'https://a0.muscache.com/im/pictures/miso/Hosting-52707658/original/469925b5-f7ec-4ccc-822c-61cad80a5b5c.jpeg?im_w=1200',
-        thumbnail: 'https://a0.muscache.com/im/pictures/miso/Hosting-52707658/original/469925b5-f7ec-4ccc-822c-61cad80a5b5c.jpeg?im_w=1200',
-    },
-    {
-        original: 'https://a0.muscache.com/im/pictures/20c089da-7bd4-4c49-a506-903b7c848765.jpg?im_w=1200',
-        thumbnail: 'https://a0.muscache.com/im/pictures/20c089da-7bd4-4c49-a506-903b7c848765.jpg?im_w=1200',
-    },
-    {
-        original: 'https://a0.muscache.com/im/pictures/miso/Hosting-52707658/original/b7600d4a-5854-4d85-b5bf-3b9072a57bee.jpeg?im_w=1200',
-        thumbnail: 'https://a0.muscache.com/im/pictures/miso/Hosting-52707658/original/b7600d4a-5854-4d85-b5bf-3b9072a57bee.jpeg?im_w=1200',
-    },
-    {
-        original: 'https://a0.muscache.com/im/pictures/0838a373-3052-47c2-b05f-ce1998aff494.jpg?im_w=1200',
-        thumbnail: 'https://a0.muscache.com/im/pictures/0838a373-3052-47c2-b05f-ce1998aff494.jpg?im_w=1200',
-    },
+    
   ];

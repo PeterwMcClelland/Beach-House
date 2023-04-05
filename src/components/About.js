@@ -21,17 +21,19 @@ function About() {
             </div>  */}
 
         <div class="infotext">
-            <h1 className='about-h1'>About This Space</h1>
+            <h1 className='about-h1'>A House In Newport</h1>
             <p className='abouttext'>
             This is the perfect coastal getaway for 1 or 2 people. 
             The house has amazing views overlooking Yaquina Bay and Newport's historic bay
              front. Well accommodated, stylish, comfortable and inviting.
             </p>
-            <h2 className='about-h2'>The Space</h2>
+            <br/>
+            <h2 className='about-h2'>The House</h2>
             <p className='abouttext'>
             This is a passive solar, midcentury modern home, originally built by Aurora's grandfather
              in 1950. It's been restored and updated, while honoring the original design and feel.
             </p>
+            <br/>
             <h2 className='about-h2'>Guest Access</h2>
             <p className='abouttext'>
             The house has private parking on the same level as the entrance, with no steps to climb.

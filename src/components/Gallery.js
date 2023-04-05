@@ -1,7 +1,7 @@
 import React from 'react'
 
 import ImageGallery from 'react-image-gallery';
-import { images } from '../assets/javascript/gallery-image';
+import { images } from '../assets/javascript/gallery-images';
 import '../assets/CSS/image-gallory.css';
 
 function Gallery() {
