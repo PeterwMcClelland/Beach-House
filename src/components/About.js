@@ -37,7 +37,7 @@ function About() {
             The house has private parking on the same level as the entrance, with no steps to climb.
             </p>
             <br/>
-            <h3>House Rules</h3>
+            <h2>House Rules</h2>
             <ul>
               <li>No Pets.</li>
               <li>No parties or events, capacity is 2 people.</li>

@@ -13,7 +13,7 @@ function App() {
     <>
             <BrowserRouter>
                 <div className="navbar">
-                    <div id="beachhousenav" className="navlink">
+                    <div id="beachhousenav">
                         <NavLink to="/" style={({ isActive }) => ({ 
                             color: isActive ? 'lightblue' : 'beige' })}>
                             The Newport Home
