@@ -16,19 +16,19 @@ function App() {
                     <div id="beachhousenav" className="navlink">
                         <NavLink to="/" style={({ isActive }) => ({ 
                             color: isActive ? 'lightblue' : 'beige' })}>
-                            Pacific Nest
-                        </NavLink>
-                    </div>
-                    <div className="navlink">
-                        <NavLink to="/gallery" style={({ isActive }) => ({ 
-                            color: isActive ? 'lightblue' : 'beige' })}>
-                            Gallery
+                            The Newport Home
                         </NavLink>
                     </div>
                     <div className="navlink">
                         <NavLink to="/about" style={({ isActive }) => ({ 
                             color: isActive ? 'lightblue' : 'beige' })}>
                             About
+                        </NavLink>
+                    </div>
+                    <div className="navlink">
+                        <NavLink to="/gallery" style={({ isActive }) => ({ 
+                            color: isActive ? 'lightblue' : 'beige' })}>
+                            Gallery
                         </NavLink>
                     </div>
                     <div className="navlink">

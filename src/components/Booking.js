@@ -10,12 +10,12 @@ function Booking() {
     <>
     <div id="booking" className="section"> 
       <div className="section-center"> 
-        <div className="container"> 
+        <div className="booking-container"> 
           <div className="row"> 
             <div className="booking-form"> 
 
     <div className="form-header"> 
-      <h1 className='booking-h1'>Make your reservation</h1> 
+      <h1 className='booking-h1'>Book Your Stay</h1> 
     </div> 
     
     <form> 
