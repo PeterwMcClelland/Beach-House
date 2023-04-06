@@ -11,7 +11,7 @@ function Confirmation() {
     <div><FontAwesomeIcon size='4x' color='lightgreen' icon={faCalendarCheck } /></div>
         <h1>Thank You!</h1>
         <p>
-            We will email you in the next 24 hours with more information. 
+            We will email you back in the next 24 hours. 
         </p>
     </div>
     </body>
