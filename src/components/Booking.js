@@ -1,14 +1,35 @@
-import React from 'react'
 
-import {Link} from 'react-router-dom';
-
-
+import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 
-function Booking() {
+// import {Link} from 'react-router-dom';
+
+
+
+
+ function Booking() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  function handleSubmit(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_9kwskiv', 'template_sjp2srm', e.target, 'FuxVngYBFR69CxVp3')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+
+    setName('');
+    setEmail('');
+    setMessage('');
+  }
   return (
-    <>
-    <div id="booking" className="section"> 
+    
+     <div id="booking" className="section"> 
       <div className="section-center"> 
         <div className="booking-container"> 
           <div className="row"> 
@@ -18,81 +39,70 @@ function Booking() {
       <h1 className='booking-h1'>Book Your Stay</h1> 
     </div> 
     
-    <form> 
+    <form onSubmit={handleSubmit}> 
 
     <div className="row"> 
         <div > 
           <div className="form-group"> 
-            <input className="form-control" placeholder='Full Name' type="text" required/>
-      <span className="form-label"></span> 
-      </div> 
+            <input className="form-control" type="text" placeholder='Full Name' name="from_name" value={name} onChange={(e) => setName(e.target.value)} />
+          <span className="form-label"></span> 
+        </div> 
       </div>
-      
-      <div className='in-out-date'>
-        <div className="col-md-6"> 
-          <div className="form-group"> 
-            <input className="form-control" type="date" required/>
-      <span className="form-label">Check In</span> 
-      </div> 
     </div> 
-
-    <div className="col-md-6"> 
-      <div className="form-group"> 
-        <input className="form-control" type="date" required/>
-        <span className="form-label">
-          Check out
-          </span> 
-        </div> 
-      </div> 
-    </div>
-
-    </div> 
-
-    <div className="row-people"> 
-      <div className="num-people"> 
-        <div className="form-group"> 
-          <select className="form-control" required> 
-            <option value="" hidden># Adults</option> 
-              <option>1</option> 
-              <option>2</option> 
-          </select> 
-        
-        <span className="form-label">
-          Adults
-          </span> 
-        </div> 
-      </div> 
-    </div> 
-
+   
     <div className="row"> 
       <div className="col-md-6"> 
         <div className="form-group"> 
-          <input className="form-control" type="email" placeholder="Enter your Email" /> 
+        <input className="form-control" type="email" name="reply_to" placeholder="Enter your Email" value={email} onChange={(e) => setEmail(e.target.value)} />
+        
             <span className="form-label">Email</span> 
             </div> 
           </div> 
-        <div className="col-md-6"> 
-        <div className="form-group"> 
-        <input className="form-control" type="tel" placeholder="Phone Number"/>
-            <span className="form-label">Phone</span> 
-        </div> 
       </div> 
+
+    <div className="row"> 
+        <div > 
+          <div className="form-group"> 
+            <textarea className="form-control" placeholder='Message' type="text" name="message" value={message} onChange={(e) => setMessage(e.target.value)} />
+          <span className="form-label"></span> 
+        </div> 
+      </div>
     </div> 
-
-     <div className="form-btn"> 
-     <Link to='/Confirmation'>
-     <button className="submit-btn">Book Now</button>
-     </Link>
-
+    
+            <div className="form-btn"> 
+              {/* <Link to='/Confirmation'> */}
+               <button className="submit-btn" type="submit" >Book Now</button>
+              {/* </Link> */}
               </div> 
             </form> 
           </div> 
         </div> 
       </div> 
     </div>
-  </div>
-</>
-  )
+  </div> 
+
+  );
 }
 
-export default Booking;
+ export default Booking;
+
+// function Booking() {
+  
+
+//   return (
+//     <form className='test' >
+//       <label>Name</label>
+//       <input type="text" name="from_name" value={name} onChange={(e) => setName(e.target.value)} />
+
+//       <label>Email</label>
+//       <input type="email" name="reply_to" value={email} onChange={(e) => setEmail(e.target.value)} />
+
+//       <label>Message</label>
+//       <textarea name="message" value={message} onChange={(e) => setMessage(e.target.value)} />
+
+//       <button type="submit">Send</button>
+//     </form>
+//   );
+// }
+
+// export default Booking;

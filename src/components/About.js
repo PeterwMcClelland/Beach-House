@@ -27,16 +27,16 @@ function About() {
               <p className='abouttext'>
                 The house has private parking on the same level as the entrance, with no steps to climb.
               </p>
-              
+
           <br/>
             <h2>House Rules</h2>
               <ul>
-                <li>No Pets.</li>
-                <li>No parties or events, capacity is 2 people.</li>
-                <li>No smoking at all on the premises.</li>
-                <li>Not suitable for children, no child accommodations.</li>
-                <li>No unregistered guests.</li>
-                <li>No food or drink in the bedroom, water is fine.</li>
+                <li>- No Pets.</li>
+                <li>- No parties or events, capacity is 2 people.</li>
+                <li>- No smoking at all on the premises.</li>
+                <li>- Not suitable for children, no child accommodations.</li>
+                <li>- No unregistered guests.</li>
+                <li>- No food or drink in the bedroom, water is fine.</li>
               </ul>
           </div>
         

@@ -161,6 +161,10 @@ a {
     border-radius: 5px;
   }
 
+  ul {
+    list-style-type: none;
+}
+
   .about-h1 {
     padding-bottom: 10px;
     font-family: 'Roboto Slab', serif;
@@ -421,5 +425,10 @@ a {
           font-family: 'Roboto Slab', serif;
           /* font-family: 'Lilita One', cursive; */
         }
+
+.test {
+  padding-top: 200px;
+}
+        
 
        
