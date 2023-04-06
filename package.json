@@ -19,10 +19,11 @@
     "react-fontawesome": "^1.7.1",
     "react-image-gallery": "^1.2.11",
     "react-lorem-ipsum": "^1.4.10",
-    "react-router-dom": "^6.6.1",
+    "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
     "router-dom": "^2.2.9",
     "url-loader": "^4.1.1",
+    "use-history": "^1.4.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
