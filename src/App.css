@@ -199,6 +199,10 @@ a {
       text-align: center;
     }
 
+    .form-control {
+      font-family: 'Roboto Slab', serif;
+    }
+
 .section{
     position: relative;
     height: 100vh;
@@ -218,6 +222,7 @@ a {
 #booking{
     font-family: 'Raleway', sans-serif;
     padding-top: 100px;
+
     }
     
     .booking-form{
@@ -231,6 +236,28 @@ a {
     border-radius: 5px;
     z-index: 20
     }
+
+    #message {
+      height: 150px;
+      border-radius: 10px;
+      font-family: 'Roboto Slab', serif;
+      font-size: medium;
+      width: 300px;
+    }
+
+    .booking-text {
+      margin-left: 100px;
+    color: white;
+    margin-right: 100px;
+    justify-items: center;
+    font-family: 'Roboto Slab', serif;
+    }
+
+    .tableinputs {
+      display: inline-flex;
+      
+    
+    }
         
     .booking-form::before{
     content: '';
@@ -239,6 +266,7 @@ a {
     right: 0;
     bottom: 0;
     top: 0;
+
     background: rgba(53, 53, 53, 0.7);
     z-index: -1
     }
@@ -263,7 +291,7 @@ a {
     }
     
     .booking-form .form-control{
-        background-color: rgba(255, 255, 255, 0.6);
+        background-color: rgba(255, 255, 255, 0.7);
         height: 60px;
         padding: 0px 25px;
         border: none;
@@ -371,6 +399,7 @@ a {
         
         .booking-form .form-group.input-not-empty .form-control{
         padding-top: 16px
+        
         }
             
         .booking-form .form-group.input-not-empty .form-label{
@@ -396,6 +425,7 @@ a {
         .booking-form .submit-btn:hover, .booking-form .submit-btn:focus{
         opacity: 0.9
         }
+        
 
 
         /* ---------- Gallery ---------- */

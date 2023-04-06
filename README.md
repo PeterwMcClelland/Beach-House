@@ -12,6 +12,7 @@ React, HTML, CSS, Javascript, Fontawesome & Heroku.
 ## GitHub & Deployed Site
 
 Deployed site: https://newport-house.herokuapp.com/
+
 Repo: https://github.com/PeterwMcClelland/Beach-House
 
 ## Contact

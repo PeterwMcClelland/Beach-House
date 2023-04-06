@@ -34,8 +34,10 @@ function Booking() {
             <div className="booking-form">
               <div className="form-header">
                 <h1 className="booking-h1">Book Your Stay</h1>
+                <p className='booking-text'>Let us know what dates you would like to stay or general quetions.</p>
               </div>
               <form onSubmit={handleSubmit}>
+                <div className="tableinputs">
                 <div className="row">
                   <div>
                     <div className="form-group">
@@ -68,13 +70,15 @@ function Booking() {
                     </div>
                   </div>
                 </div>
+                </div>
 
                 <div className="row">
                   <div>
                     <div className="form-group">
                       <textarea
+                      id='message'
                         className="form-control"
-                        placeholder="Message"
+                        placeholder="Message..."
                         type="text"
                         name="message"
                         value={message}
