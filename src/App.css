@@ -463,4 +463,27 @@ a {
 }
         
 
+@media (max-width: 550px) {
+  #beachhousenav {
+     font-size: larger;
+ }
+
+ .navlink {
+  font-size: large;
+ }
+
+ .about-h1 {
+  font-size: x-large;
+ }
+
+ .about-h2 {
+  font-size: larger;
+ }
+
+ .infotext {
+  margin: 75px auto 0 auto;
+ }
+
+}
+
        

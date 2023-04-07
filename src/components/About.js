@@ -29,7 +29,7 @@ function About() {
               </p>
 
           <br/>
-            <h2>House Rules</h2>
+            <h2 className='about-h2'>House Rules</h2>
               <ul>
                 <li>- No Pets.</li>
                 <li>- No parties or events, capacity is 2 people.</li>
