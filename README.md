@@ -7,7 +7,7 @@ This site was built for a vacation house rental in Newport, OR.
 [![Screen-Shot-2023-04-05-at-3-23-58-AM.png](https://i.postimg.cc/VvxQvqyQ/Screen-Shot-2023-04-05-at-3-23-58-AM.png)](https://postimg.cc/MfmrrjKd)
 
 ## Built With
-React, HTML, CSS, Javascript, Fontawesome & Heroku.
+React, HTML, CSS, Javascript, Fontawesome, Emailjs & Heroku.
 
 ## GitHub & Deployed Site
 

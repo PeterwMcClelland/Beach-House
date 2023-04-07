@@ -48,6 +48,7 @@ function Booking() {
                         name="from_name"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
+                        required
                       />
                       <span className="form-label"></span>
                     </div>
@@ -64,6 +65,7 @@ function Booking() {
                         placeholder="Enter your Email"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
+                        required
                       />
 
                       <span className="form-label">Email</span>
@@ -83,6 +85,7 @@ function Booking() {
                         name="message"
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}
+                        required
                       />
                       <span className="form-label"></span>
                     </div>
