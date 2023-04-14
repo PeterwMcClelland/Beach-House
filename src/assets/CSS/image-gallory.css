@@ -11,11 +11,11 @@ header {
   }
   
   .image-gallery-wrapper {
-    margin-top: 5rem;
-    max-width: 850px;
+    max-width: max-content;
     width: 100%;
     margin: 0 auto;
-   padding-top: 115px;
+    max-height: max-content;
+    padding-top: 115px;
     
   }
 
